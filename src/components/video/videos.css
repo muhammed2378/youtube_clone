@@ -1,0 +1,19 @@
+.videos {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 620px) {
+    .videos {
+        padding: 20px 40px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .videos {
+        padding: 20px 20px;
+    }
+}

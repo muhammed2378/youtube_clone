@@ -1,0 +1,8 @@
+.feed {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+
+    top: 85px;
+}

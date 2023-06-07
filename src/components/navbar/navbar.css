@@ -1,0 +1,32 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 5;
+    height: 85px;
+    top: 0;
+}
+
+/* @media screen and (max-width: 650px) {
+    .navbar {
+        height: 200px;
+    }
+} */
+
+.navbar .logo {
+    margin-left: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.navbar .logo svg {
+    margin-right: 1rem;
+}
+
+.navbar img {
+    width: 100px;
+    height: 80px;
+}

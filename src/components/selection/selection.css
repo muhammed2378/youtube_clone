@@ -1,0 +1,30 @@
+.selection {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: fixed;
+    overflow-x: auto;
+    background-color: #fff;
+    width: 100%;
+}
+
+.selection div {
+    cursor: pointer;
+    width: max-content;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 15px;
+    flex-shrink: 0;
+}
+
+/* .sidebar div:hover {
+    background-color: var(--bg-hover-color);
+} */
+
+@media screen and (max-width: 888px) {
+    .selection {
+        left: 20px;
+    }
+}

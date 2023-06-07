@@ -1,0 +1,103 @@
+.video-page {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    position: absolute;
+    top: 80px;
+    padding: 0 20px;
+    /* background-color: #000; */
+}
+
+@media screen and (max-width: 800px) {
+    .video-page {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.videoBox {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 80px;
+    background-color: #fff;
+}
+
+.videoBox .video-player {
+    width: 100% !important;
+    height: 500px !important;
+}
+
+@media screen and (max-width: 800px) {
+    .videoBox {
+        padding: 0 10px;
+    }
+    .videoBox .video-player {
+        width: 100% !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .videoBox .video-player {
+        width: 100% !important;
+        height: 200px !important;
+    }
+}
+.related-videos {
+    flex-basis: 350px;
+}
+
+.videoDetail {
+    width: 100%;
+}
+
+.videoBox .title {
+    width: 100%;
+    margin-top: 10px;
+}
+.videoBox .title p {
+    margin-bottom: 5px;
+    color: #0f0f0f;
+}
+
+.videoBox .statics {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10pxs;
+    padding-bottom: 10px;
+}
+
+.videoBox .statics .video-wise {
+    display: flex;
+    font-size: 12px;
+    color: #606060;
+    justify-content: space-between;
+}
+
+.videoBox .statics .video-wise p:first-child {
+    margin-right: 30px;
+}
+.videoBox .statics .channel-wise {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #606060;
+}
+.videoBox .statics .channel-wise svg {
+    font-size: 13px;
+}
+.videoBox .statics .channel-wise p {
+    font-size: 14px;
+    margin-right: 5px;
+}
+.videoBox .statics .channel-wise p:hover {
+    color: #0f0f0f;
+}
